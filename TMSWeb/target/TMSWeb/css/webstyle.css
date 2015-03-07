@@ -1,0 +1,210 @@
+body,html { margin: 0 auto; padding: 0px; font-family: arial; background: #7d7d7d;}
+@font-face{font-family: 'WebRupee';src: url('fonts/WebRupee.V2.0.eot');src: local('WebRupee'), url('fonts/WebRupee.V2.0.ttf') format('truetype'),  url('fonts/WebRupee.V2.0.woff') format('woff'), url('fonts/WebRupee.V2.0.svg') format('svg');font-weight: normal;font-style: normal;}
+.WebRupee{font-family: 'WebRupee';}
+
+img { border: none;}
+a { text-decoration: none;}
+.clear { clear: both; height: 0px;}
+.left { float: left;}
+.right { float: right;}
+.full_width { width: 100%; float: left;}
+.w800 { width: 800px;}
+.f13 { font-size: 13px;}
+
+.mt10 { margin-top: 10px;}
+.ml5 { margin-left: 5px;}
+.mt30 { margin-top: 30px;}
+.mb5 { margin-bottom: 5px;}
+.mb30 { margin-bottom: 30px;}
+.mr15 { margin-right: 25px;}
+.fb { font-weight: bold;}
+
+.main_div { width: 980px; margin: 0 auto; position: relative; }
+.cont_div { width: 980px; float: left; background: #ffffff;}
+.menu { width: 100.2%; float: left; background: url(../images/menu_bg.jpg) repeat-x; height: 52px; margin-top: 40px;}
+.menu ul { margin: 0; padding: 0px; margin-left: 130px;}
+.menu li { color: #ffffff; display: block; float: left; background: url(../images/menu_line.jpg) no-repeat left; font-size: 16px;}
+.menu li:first-child { background: none; }
+.menu li a { color: #ffffff; padding:16px 22px; display: block; margin-left: 1px; }
+.menu li a:hover, .menu li.active a { color: #ffffff; background: #003a75;}
+
+.logo{ position: absolute; top: 20px; left: 20px; float: left;}
+.imgbg { float: left;}
+.footer { width: 940px; padding: 10px 20px; float:left; border-top:#cccccc 7px solid; position: relative; }
+.w230 { width: 230px; float: left;}
+.sms { background: #ffb400; color: #00274f; font-size: 16px; font-weight: bold; padding: 3px; float: left; width: 200px; line-height: 18px;}
+.f12 { font-size: 12px;}
+.blue { color: #00274f;}
+.ftr_img { position: absolute; top: -55px; left: 25px;}
+.fnt_txt { font-family: 'calibri'; float: left; font-size: 14px; text-align: center; margin-left: 70px;}
+.h1 { font-size: 22px; color: #00274f; margin-left: 20px; margin-top: 40px;}
+.h2 { font-size: 16px; color: #00274f; margin-left: 20px; margin-top: 40px;}
+.marquee { float: left; width: 100%; color: #00274F; font-size: 12px; font-weight: bold;}
+
+/*  TNC CSS   */
+.tnc li { margin-top: 6px; padding-bottom: 6px; line-height: 20px; font-size: 13px; text-align: justify; padding-right: 30px;}
+#back-top { position: absolute; top: 5px; right: 0px; }
+#back-top a { width: 82px; display: block; height: 20px; }
+
+/* FAQ CSS   */
+.qna_div { float: left; width: 940px; margin-left: 20px; border-bottom: 1px dotted #000000; padding-bottom: 10px; margin-top: 15px; font-size: 13px;}
+.qna_div:last-child { border-bottom: none;}
+.qna_div_end { float: left; width: 100%; padding-bottom: 10px; margin-top: 15px;}
+.qna { background: url(../images/qna_img.jpg); float: left; width: 37px; height: 69px;}
+.question_div { float: left; width: 880px; color: #000000; margin-left: 10px; padding-top: 10px; }
+.ans_div { float: left; width: 880px; color: #000000; margin-left: 10px; padding-top: 14px;  line-height: 20px; }
+
+/* Store address CSS  */
+/*.store_bg { margin-bottom: 60px; width: 940px; margin-left: 20px; float: left; font-size: 13px;}*/
+.store_bg ul { margin: 0px; margin-left: 10px; padding: 0px; }
+/*.store_bg li { background:url(../images/store_bg.jpg) no-repeat bottom; width: 261px; height:213px; float: left; margin-left: 60px; list-style: none; }*/
+.store_bg li:first-child {  margin-left: 0px; }
+.store_bg li h1 { background: #FFFFFF; font-size: 15px; color: #414141; padding: 0px; margin: 0px; line-height: 14px; float: left; margin-left: 15px; font-weight: bold;}
+.store_bg li p { line-height: 23px; padding-top: 0px; margin-left: 13px; margin-right: 2px;} 
+
+.store_bg { width: 940px; min-height: 280px; margin-left: 20px; float: left; font-size: 13px;}
+.store_bg li { background:url(../images/store_bg.jpg) no-repeat bottom; width: 298px; height:370px; float: left; margin-right: 10px; list-style: none; margin-bottom: 23px;}
+
+/* About & contact us CSS */
+.txt { font-size: 13px; line-height: 20px; padding: 0px 20px;}
+.clear { clear: both;}
+
+/*  7 august CSS  */
+.mid_frm { margin: 20px auto 0; padding: 10px 20px 20px; width: 600px; }
+.mid_frm .lb { width: 260px; float: left; text-align: right; font-size: 14px; padding-right: 10px; line-height: 30px;}
+.str { color: #ff0033; font-size: 14px; font-weight: bold; margin-right: 3px;}
+.mb10 { margin-bottom: 10px;}
+.paytxt { font-size: 16px; color: #00274f; margin-left: 20px; margin-top: 40px; text-align: center; font-weight: normal; }
+.w380 { width: 380px; margin: 0 auto; }
+.w768 { width: 90%; margin: 0 auto; margin-top: 40px;}
+.paybox { float: left; border: 1px solid #C9DEE9; padding: 10px 20px; background: #fbfeff; width: 100%; margin-bottom: 40px;}
+.payboxForOtherPages { float: left; border: 1px solid #C9DEE9; background: #fbfeff; width: 100%; margin-bottom:20px;}
+.payboxForOtherPages .div1 { width: 150px; font-size: 13px; color: #003E7C; float: left; text-align: right; padding-right: 10px; line-height: 25px;}
+.payboxForOtherPages .div2 { font-size: 13px; color: #000; float: left; line-height: 25px; }
+.paybox .div1 { width: 150px; font-size: 13px; color: #003E7C; float: left; text-align: right; padding-right: 10px; line-height: 25px;}
+.paybox .div2 { font-size: 13px; color: #000; float: left; line-height: 25px; }
+.hd { font-size: 13px; color: #00274f; text-align: center; margin: 0px; padding: 10px; font-weight: bold; }
+.hd1 
+{ 
+    font-size: 17px; 
+    color: #003E7C; 
+    text-align: center; 
+    margin: 0px; 
+    padding: 10px; 
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hd2 { font-size: 16px; color: #003E7C;}
+.input1 
+{ 
+    border: 1px solid #CCCCCC;
+    background-color: #003e7c; 
+    border-radius: 5px 5px 5px 5px; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; 
+    color: #FFFFFF; 
+    font-size: 13px;
+    line-height: 16px;
+    outline: medium none;
+    padding: 6px 5px;
+    width: 190px;
+}
+/*  Style.css */
+
+.input 
+{ 
+    border: 1px solid #CCCCCC; 
+    border-radius: 5px 5px 5px 5px; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; 
+    color: #666666; 
+    font-size: 13px; 
+    line-height: 16px; 
+    outline: medium none; 
+    padding: 6px 5px !important; width: 190px; 
+}
+.input[disabled]
+{
+    background-color:#F0F0F0 !important; color:#303030 !important;
+}
+
+.button{ display: inline-block; *display: inline; padding: 4px 20px; cursor: pointer; border: 1px solid #EF6E03; overflow: visible;  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none; color: #ffffff; 
+  margin-bottom: 10px;
+	background: #ff9600; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff9600 0%, #ff7400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9600), color-stop(100%,#ff7400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff9600 0%,#ff7400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff9600 0%,#ff7400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff9600 0%,#ff7400 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff9600 0%,#ff7400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#ff7400',GradientType=0 ); /* IE6-9 */
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);  
+}
+.button:hover {
+	background: #ff9600; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff7400 0%, #ff9600 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7400), color-stop(100%,#ff9600)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff7400 0%,#ff9600 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff7400 0%,#ff9600 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff7400 0%,#ff9600 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff7400 0%,#ff9600 100%); /* W3C */
+}
+
+
+
+/*   latest added for Payment Gateway*/
+
+.stp 
+{ 
+    margin: 0px; 
+    padding: 0px; 
+    margin-bottom: 30px; 
+    font-family: 'calibri'; 
+    margin-top: 20px; 
+    margin-left: 0px;
+}
+.stp li { margin: 0px; padding:0px 15px 0px 1px; float: left; list-style: none; font-size: 15px; text-align: center; display: block; margin-right: 15px; border-radius: 8px; border: 1px solid #CCC; color: #666; line-height: 40px; text-transform: #fff 0px 1px 1px; 
+background: #eeeeee;
+background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+}
+.stp li span { font-size: 24px; background: #FFFFFF; border-radius: 5px 0px 0px 5px; padding: 5px 8px; float: left; line-height: 30px; margin-right: 10px;}
+.stp li.act {  border: 1px solid #ff7400; color:#ffffff;
+background: #ff7400;
+background: -moz-linear-gradient(top,  #ff7400 0%, #ff7400 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7400), color-stop(100%,#ff7400));
+background: -webkit-linear-gradient(top,  #ff7400 0%,#ff7400 100%);
+background: -o-linear-gradient(top,  #ff7400 0%,#ff7400 100%);
+background: -ms-linear-gradient(top,  #ff7400 0%,#ff7400 100%);
+background: linear-gradient(to bottom,  #ff7400 0%,#ff7400 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7400', endColorstr='#ff7400',GradientType=0 );
+}
+.stp li.act span { color:#ff7400; }
+
+#breadcrumb{ float: left; display: block;}
+#breadcrumb ul { list-style: none; }
+ 
+.crumbs li {  display: inline; font-family: 'calibri'; }
+.crumbs li.first { padding-left: 8px; }
+.crumbs li a { background-image: url('../images/bg-crumbs2.png');  background-repeat: no-repeat; background-position: 100% 0; position: relative; color: #333; display: block; float: left; font-size: 15px; margin-left: -13px; padding: 10px 20px; text-decoration: none; }
+.crumbs li a:hover { color: #333; background-position: 100% 34px; cursor: pointer; }
+.crumbs li.first a span { height: 35px; width: 3px; border-left: 1px solid #999; position: absolute; top: 1px; left: 0px; }
+
+.crumbs li a.active { background-image: url('../images/bg-crumbs1.png');  background-repeat: no-repeat; background-position: 100% 0; position: relative; color: #FFF; }
+.crumbs li a:hover { color: #333; background-position: 100% -51px; cursor: pointer; }
+
+/*  Checkbox css  */
+label  { cursor: pointer; line-height: 22px; padding-bottom: 2px; padding-top: 2px; font-size: 14px; }
+.label_check input, .label_radio input  { margin-right: 5px; }
+.has-js .label_check, .has-js .label_radio { padding-left: 25px; }
+.has-js .label_radio { background: url(../images/radio-off.png) no-repeat; }
+.has-js .label_check { background: url(../images/check-off.png) no-repeat; }
+.has-js label.c_on { background: url(../images/check-on.png) no-repeat; }
+.has-js label.r_on { background: url(../images/radio-on.png) no-repeat; }
+.has-js .label_check input, .has-js .label_radio input  { position: absolute; left: -9999px; }
